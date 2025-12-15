@@ -1,0 +1,146 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avanthikka N | Portfolio</title>
+  <style>
+    :root {
+      --bg: #000000;
+      --card: #0b0b0b;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #22c55e; /* accent green */
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    nav {
+      position: sticky; top: 0;
+      background: rgba(0,0,0,0.85);
+      border-bottom: 1px solid #111;
+    }
+    nav ul {
+      display: flex; gap: 20px; justify-content: center;
+      padding: 12px; list-style: none;
+    }
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      max-width: 1100px;
+      margin: auto;
+    }
+    header h1 { font-size: 2.4rem; margin-bottom: 12px; }
+    header p { color: var(--muted); max-width: 720px; margin: auto; }
+    section { max-width: 1100px; margin: 40px auto; padding: 20px; }
+    h2 { margin-bottom: 16px; }
+    .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .card {
+      background: var(--card);
+      border: 1px solid #111;
+      border-radius: 16px;
+      padding: 18px;
+    }
+    .tag {
+      display: inline-block; padding: 6px 10px; border-radius: 999px;
+      background: #111; color: var(--muted);
+      margin: 4px 6px 0 0; font-size: .85rem;
+    }
+    .btn {
+      display: inline-block; padding: 10px 16px; border-radius: 12px;
+      background: var(--accent); color: #000; font-weight: 600; margin-top: 12px;
+    }
+    footer { text-align: center; padding: 32px; color: var(--muted); }
+  </style>
+</head>
+<body><nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav><header>
+  <h1>Avanthikka N</h1>
+  <p>Computer Science student aspiring full-stack developer, focused on building scalable and user-friendly web applications.</p>
+  <a class="btn" href="#projects">View Projects</a>
+</header><section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>CS student with a strong interest in full-stack development. Passionate about building scalable web applications and solving real-world problems through clean and efficient code.</p>
+  </div>
+</section><section id="education">
+  <h2>Education</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Bachelor of Computer Science</h3>
+      <p>Same College</p>
+      <p><strong>CGPA:</strong> 8.43</p>
+    </div>
+    <div class="card">
+      <h3>Class XII (CBSE)</h3>
+      <p>DAV Girls Senior Secondary School</p>
+      <p><strong>Score:</strong> 89.4%</p>
+    </div>
+    <div class="card">
+      <h3>Class X (CBSE)</h3>
+      <p>DAV Girls Senior Secondary School</p>
+      <p><strong>Score:</strong> 95.6%</p>
+    </div>
+  </div>
+</section><section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Languages</h3>
+      <span class="tag">Java</span><span class="tag">Python</span><span class="tag">C/C++</span><span class="tag">JavaScript</span>
+    </div>
+    <div class="card">
+      <h3>Frontend</h3>
+      <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">React</span><span class="tag">Bootstrap</span>
+    </div>
+    <div class="card">
+      <h3>Backend & Tools</h3>
+      <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span><span class="tag">Git</span>
+    </div>
+  </div>
+</section><section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Full-Stack Web Application</h3>
+      <p>Developed a responsive web application with authentication and CRUD operations.</p>
+      <p><strong>Tech:</strong> React, Node.js, Express, MongoDB</p>
+    </div>
+    <div class="card">
+      <h3>Medical Management SystemX</h3>
+      <p>Designed a system to manage patient records, appointments, and medical data efficiently.</p>
+      <p><strong>Tech:</strong> Java, MySQL</p>
+    </div>
+  </div>
+</section><section id="certifications">
+  <h2>Certifications</h2>
+  <div class="card">
+    <ul>
+      <li>Cisco Networking Academy — Networking Basics</li>
+      <li>Smart India Hackathon 2025 — Internal Round</li>
+      <li>NPTEL — Introduction to Industry 4.0 and Industrial Internet of Things</li>
+    </ul>
+  </div>
+</section><section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p><strong>Phone:</strong> 9840772827</p>
+    <p><strong>Email:</strong> avanthikka2006@gmail.com</p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/avanthikka-n" target="_blank">github.com/avanthikka-n</a></p>
+  </div>
+</section><footer>
+  <p>© 2025 Avanthikka N • Full-Stack Portfolio</p>
+</footer></body>
+</html>
